@@ -1,19 +1,19 @@
-# play-scala-seed.g8
+# play-seed.g8
 
-[![Build Status](https://travis-ci.com/playframework/play-scala-seed.g8.svg?branch=2.8.x)](https://travis-ci.com/playframework/play-scala-seed.g8)
+[![Build Status](https://travis-ci.com/playframework/play-seed.g8.svg?branch=2.8.x)](https://travis-ci.com/playframework/play-scala-seed.g8)
 
-Giter8 template for generating a Play project seed in Scala.
+Giter8 template for generating a Play project seed in Java and Scala hybrid.
 
 This project is intended for people who know how to use Play and want to get started right away.
 
-You should only need to clone this project if you are modifying the giter8 template.  For information on giter8 templates, please see <http://www.foundweekends.org/giter8/>
+You should only need to clone this project if you are modifying the giter8 template.  For information on giter8 templates, please see <http://www.foundweekends.org/giter8/>.
 
 ## Running
 
 If you want to create a project:
 
 ```bash
-sbt new playframework/play-scala-seed.g8
+sbt new XenonAbe/play-seed.g8
 ```
 
 ## Scaffolding
@@ -27,7 +27,7 @@ You can also create your own giter8 seeds and scaffolds based off this one by fo
 If you are testing this giter8 template locally, you should [install g8](http://www.foundweekends.org/giter8/setup.html) and then run the [local test](http://www.foundweekends.org/giter8/testing.html) feature:
 
 ```bash
-g8 file://play-scala-seed.g8/ --name=my-seed-test --force
+g8 file://play-seed.g8/ --name=my-seed-test --force
 ```
 
 Will create an example template called `my-seed-test`, for example.
